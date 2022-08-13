@@ -1,0 +1,35 @@
+{
+  "name": "webdriverio-appium",
+  "version": "1.0.0",
+  "description": "Appium tests using WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webdriverio",
+    "Appium"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.20.7",
+    "appium": "^2.0.0-beta.40",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/register": "^7.18.9",
+    "@wdio/appium-service": "^7.20.7",
+    "@wdio/browserstack-service": "^7.20.9",
+    "@wdio/local-runner": "^7.20.7",
+    "@wdio/mocha-framework": "^7.20.7",
+    "@wdio/spec-reporter": "^7.20.7",
+    "appium-uiautomator2-driver": "^2.4.5",
+    "appium-xcuitest-driver": "^4.7.4",
+    "eslint": "^8.21.0",
+    "eslint-plugin-wdio": "^7.20.8"
+  }
+}
