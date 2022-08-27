@@ -3,236 +3,154 @@
 [35m[Appium][39m   - uiautomator2@2.4.5 (automationName 'UiAutomator2')
 [35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
-[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 12 Pro","appium:automationName":"XCUITest","appium:app":"/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 12 Pro","appium:automationName":"XCUITest","appium:app":"/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app"}}[39m
-[debug] [35m[AppiumDriver@1bb3][39m Calling AppiumDriver.createSession() with args: [{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 12 Pro","appium:automationName":"XCUITest","appium:app":"/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"platformName":"ios","appium:platformVersion":"14.5","appium:deviceName":"iPhone 12 Pro","appium:automationName":"XCUITest","appium:app":"/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
-[debug] [35m[AppiumDriver@1bb3][39m Event 'newSessionRequested' logged at 1660401981197 (17:46:21 GMT+0300 (Israel Daylight Time))
-[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
-[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
-[35m[Appium][39m Will require it at /Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver
-[debug] [35m[Appium][39m Requiring driver at /Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver
-[35m[AppiumDriver@1bb3][39m Appium v2.0.0-beta.40 creating new XCUITestDriver (v4.7.4) session
-[35m[AppiumDriver@1bb3][39m Checking BaseDriver versions for Appium and XCUITestDriver
-[35m[AppiumDriver@1bb3][39m Appium's BaseDriver version is 8.5.7
-[35m[AppiumDriver@1bb3][39m XCUITestDriver's BaseDriver version is 8.5.7
-[debug] [35m[XCUITestDriver@91d9][39m Creating session with W3C capabilities: {
-[debug] [35m[XCUITestDriver@91d9][39m   "alwaysMatch": {
-[debug] [35m[XCUITestDriver@91d9][39m     "platformName": "ios",
-[debug] [35m[XCUITestDriver@91d9][39m     "appium:platformVersion": "14.5",
-[debug] [35m[XCUITestDriver@91d9][39m     "appium:deviceName": "iPhone 12 Pro",
-[debug] [35m[XCUITestDriver@91d9][39m     "appium:automationName": "XCUITest",
-[debug] [35m[XCUITestDriver@91d9][39m     "appium:app": "/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app"
-[debug] [35m[XCUITestDriver@91d9][39m   },
-[debug] [35m[XCUITestDriver@91d9][39m   "firstMatch": [
-[debug] [35m[XCUITestDriver@91d9][39m     {}
-[debug] [35m[XCUITestDriver@91d9][39m   ]
-[debug] [35m[XCUITestDriver@91d9][39m }
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Session created with session id: 3ba28745-4a99-4074-a564-67c4ff285418
-[debug] [35m[XCUITest][39m Current user: 'wallaqa'
-[35m[XCUITestDriver@91d9 (3ba28745)][39m iOS SDK Version set to '15.5'
-[35m[iOSSim][39m Constructing iOS simulator for Xcode version 13.4.1 with udid '5863576F-AA57-445F-A1F3-FE046532327B'
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Determining device to run tests on: udid: '5863576F-AA57-445F-A1F3-FE046532327B', real device: false
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'xcodeDetailsRetrieved' logged at 1660401981305 (17:46:21 GMT+0300 (Israel Daylight Time))
-[35m[BaseDriver][39m Using local app '/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'appConfigured' logged at 1660401981306 (17:46:21 GMT+0300 (Israel Daylight Time))
-[debug] [35m[XCUITest][39m Checking whether app '/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app' is actually present on file system
-[debug] [35m[XCUITest][39m App is present
-[debug] [35m[XCUITest][39m Getting bundle ID from app '/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app': 'com.syzygydev.MVCTodo'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'resetStarted' logged at 1660401981307 (17:46:21 GMT+0300 (Israel Daylight Time))
-[debug] [35m[simctl][39m Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
-Application termination failed.
-FBSSystemService reported failure without an error, possibly because the app is not currently running.
-[35m[XCUITest][39m Reset: failed to terminate Simulator application with id "com.syzygydev.MVCTodo"
-[35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'resetComplete' logged at 1660401981442 (17:46:21 GMT+0300 (Israel Daylight Time))
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Using WDA path: '/Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Using WDA agent: '/Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '5863576F-AA57-445F-A1F3-FE046532327B' using simctl
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'logCaptureStarted' logged at 1660401981598 (17:46:21 GMT+0300 (Israel Daylight Time))
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Setting up simulator
-[debug] [35m[XCUITest][39m No reason to set locale
-[debug] [35m[XCUITest][39m No iOS / app preferences to set
-[debug] [35m[XCUITest][39m Setting did not need to be updated
-[debug] [35m[iOSSim][39m Setting preferences of 5863576F-AA57-445F-A1F3-FE046532327B Simulator to {"ConnectHardwareKeyboard":false}
-[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
-[debug] [35m[iOSSim][39m Updated 5863576F-AA57-445F-A1F3-FE046532327B Simulator preferences at '/Users/wallaqa/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"5863576F-AA57-445F-A1F3-FE046532327B":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"45E42F64-28F8-4BD2-98B6-BFB8B6F49627":{"WindowCenter":"{199, 497.5}","WindowScale":0.8795045045045045},"DFCFF158-97F8-4B15-94D9-5BC6BEC28D94":{"WindowCenter":"{316.5, 499.5}","WindowScale":0.8851351351351351}},"SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
-[debug] [35m[iOSSim][39m Got Simulator UI client PID: 1030
-[35m[iOSSim][39m Both Simulator with UDID '5863576F-AA57-445F-A1F3-FE046532327B' and the UI client are currently running
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'simStarted' logged at 1660401981774 (17:46:21 GMT+0300 (Israel Daylight Time))
-[debug] [35m[XCUITest][39m Verifying application platform
-[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
-[debug] [35m[XCUITest][39m Reset requested. Removing app with id 'com.syzygydev.MVCTodo' from the device
-[debug] [35m[XCUITest][39m Installing '/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app' on Simulator with UUID '5863576F-AA57-445F-A1F3-FE046532327B'...
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Parsed BUILD_DIR configuration value: '/Users/wallaqa/Library/Developer/Xcode/DerivedData/WebDriverAgent-dzzfpmrsunfginaqmgehculxqdne/Build/Products'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got derived data root: '/Users/wallaqa/Library/Developer/Xcode/DerivedData/WebDriverAgent-dzzfpmrsunfginaqmgehculxqdne'
-[debug] [35m[XCUITest][39m The app has been installed successfully.
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'appInstalled' logged at 1660401983173 (17:46:23 GMT+0300 (Israel Daylight Time))
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
-[35m[DevCon Factory][39m Requesting connection for device 5863576F-AA57-445F-A1F3-FE046532327B on local port 8100
-[debug] [35m[DevCon Factory][39m Cached connections count: 0
-[35m[DevCon Factory][39m Successfully requested the connection for 5863576F-AA57-445F-A1F3-FE046532327B:8100
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"15.4","version":"14.5"},"ios":{"simulatorVersion":"14.5","ip":"172.20.10.7"},"ready":true,"build":{"upgradedAt":"1658837827425","time":"Aug  7 2022 14:13:09","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Upgrade timestamp of the currently bundled WDA: 1658837827425
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Upgrade timestamp of the WDA on the device: 1658837827425
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Trying to start WebDriverAgent 2 times with 10000ms interval
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'wdaStartAttempted' logged at 1660401983238 (17:46:23 GMT+0300 (Israel Daylight Time))
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"15.4","version":"14.5"},"ios":{"simulatorVersion":"14.5","ip":"172.20.10.7"},"ready":true,"build":{"upgradedAt":"1658837827425","time":"Aug  7 2022 14:13:09","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'wdaSessionAttempted' logged at 1660401983240 (17:46:23 GMT+0300 (Israel Daylight Time))
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Sending createSession command to WDA
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/session' to command name 'createSession'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.syzygydev.MVCTodo","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":{"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153","capabilities":{"device":"iphone","browserName":"MVCTodo","sdkVersion":"14.5","CFBundleIdentifier":"com.syzygydev.MVCTodo"}},"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'wdaSessionStarted' logged at 1660401985173 (17:46:25 GMT+0300 (Israel Daylight Time))
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'wdaStarted' logged at 1660401985173 (17:46:25 GMT+0300 (Israel Daylight Time))
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Event 'orientationSet' logged at 1660401985174 (17:46:25 GMT+0300 (Israel Daylight Time))
-[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
-[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
-[35m[AppiumDriver@1bb3][39m New XCUITestDriver session created successfully, session 3ba28745-4a99-4074-a564-67c4ff285418 added to master session list
-[debug] [35m[AppiumDriver@1bb3][39m Event 'newSessionStarted' logged at 1660401985175 (17:46:25 GMT+0300 (Israel Daylight Time))
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Cached the protocol value 'W3C' for the new session 3ba28745-4a99-4074-a564-67c4ff285418
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","platformVersion":"14.5","deviceName":"iPhone 12 Pro","automationName":"XCUITest","app":"/Users/wallaqa/webdriverio-appium/app/ios/MVCTodo.app","udid":"5863576F-AA57-445F-A1F3-FE046532327B"}}
-[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m3981 ms - 486[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@name=\"Create list\"]"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@name=\"Create list\"]","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Waiting up to 0 ms for condition
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/element' to command name 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element] with body: {"using":"xpath","value":"//*[@name=\"Create list\"]"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":{"ELEMENT":"12000000-0000-0000-A005-000000000000","element-6066-11e4-a52e-4f735466cecf":"12000000-0000-0000-A005-000000000000"},"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12000000-0000-0000-A005-000000000000","ELEMENT":"12000000-0000-0000-A005-000000000000"}
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element [39m[32m200[39m [90m83 ms - 137[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element/12000000-0000-0000-A005-000000000000/click[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'proxyReqRes'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/session/3ba28745-4a99-4074-a564-67c4ff285418/element/12000000-0000-0000-A005-000000000000/click' to command name 'click'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element/12000000-0000-0000-A005-000000000000/click] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element/12000000-0000-0000-A005-000000000000/click] with body: {}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":null,"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Replacing sessionId 1AEE32B0-E778-46D3-BE5A-32C8737E1153 with 3ba28745-4a99-4074-a564-67c4ff285418
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element/12000000-0000-0000-A005-000000000000/click [39m[32m200[39m [90m168 ms - 65[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@value=\"List Name\"]"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@value=\"List Name\"]","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Waiting up to 0 ms for condition
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/element' to command name 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element] with body: {"using":"xpath","value":"//*[@value=\"List Name\"]"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":{"ELEMENT":"97000000-0000-0000-A005-000000000000","element-6066-11e4-a52e-4f735466cecf":"97000000-0000-0000-A005-000000000000"},"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"97000000-0000-0000-A005-000000000000","ELEMENT":"97000000-0000-0000-A005-000000000000"}
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element [39m[32m200[39m [90m610 ms - 137[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element/97000000-0000-0000-A005-000000000000/value[39m
-[35m[HTTP][39m [90m{"text":"Things to do today"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.setValue() with args: ["Things to do today","97000000-0000-0000-A005-000000000000","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'setValue'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/element/97000000-0000-0000-A005-000000000000/value' to command name 'setValue'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Added 'text' property "Things to do today" to 'setValue' request body
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /element/97000000-0000-0000-A005-000000000000/value] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element/97000000-0000-0000-A005-000000000000/value] with body: {"value":["T","h","i","n","g","s"," ","t","o"," ","d","o"," ","t","o","d","a","y"],"text":"Things to do today"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":null,"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.setValue() result: null
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element/97000000-0000-0000-A005-000000000000/value [39m[32m200[39m [90m484 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"Create"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.findElement() with args: ["accessibility id","Create","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Waiting up to 0 ms for condition
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/element' to command name 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element] with body: {"using":"accessibility id","value":"Create"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":{"ELEMENT":"8C000000-0000-0000-A005-000000000000","element-6066-11e4-a52e-4f735466cecf":"8C000000-0000-0000-A005-000000000000"},"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8C000000-0000-0000-A005-000000000000","ELEMENT":"8C000000-0000-0000-A005-000000000000"}
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element [39m[32m200[39m [90m116 ms - 137[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element/8C000000-0000-0000-A005-000000000000/click[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Driver proxy active, passing request on via HTTP proxy
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'proxyReqRes'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/session/3ba28745-4a99-4074-a564-67c4ff285418/element/8C000000-0000-0000-A005-000000000000/click' to command name 'click'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element/8C000000-0000-0000-A005-000000000000/click] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element/8C000000-0000-0000-A005-000000000000/click] with body: {}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":null,"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Replacing sessionId 1AEE32B0-E778-46D3-BE5A-32C8737E1153 with 3ba28745-4a99-4074-a564-67c4ff285418
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element/8C000000-0000-0000-A005-000000000000/click [39m[32m200[39m [90m174 ms - 65[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/element[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"Things to do today"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.findElement() with args: ["accessibility id","Things to do today","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Waiting up to 0 ms for condition
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/element' to command name 'findElement'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/element] with body: {"using":"accessibility id","value":"Things to do today"}
-[35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'accessibility id', value 'Things to do today'","traceback":"(\n\t0   WebDriverAgentLib                   0x0000000103261a14 FBNoSuchElementErrorResponseForRequest + 288\n\t1   WebDriverAgentLib                   0x0000000103261814 +[FBFindElementCommands handleFindElement:] + 340\n\t2   WebDriverAgentLib                   0x0000000103227498 -[FBRoute_TargetAction mountRequest:intoResponse:] + 180\n\t3   WebDriverAgentLib                   0x0000000103212c88 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 428\n\t4   WebDriverAgentLib                   0x0000000103248cf8 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x0000000103249824 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 68\n\t6   libdispatch.dylib                   0x0000000180101d44 _dispatch_client_callout + 16\n\t7   libdispatch.dylib                   0x0...
-[debug] [35m[W3C][39m Matched W3C error code 'no such element' to NoSuchElementError
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at XCUITestDriver.doNativeFind (/Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:129:11)
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at runMicrotasks (<anonymous>)
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at XCUITestDriver.findNativeElementOrElements (/Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:89:10)
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at XCUITestDriver.findElOrEls (/Users/wallaqa/webdriverio-appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:22:12)
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at XCUITestDriver.findElOrElsWithProcessing (/Users/wallaqa/webdriverio-appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.js:80:16)
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m     at XCUITestDriver.findElement (/Users/wallaqa/webdriverio-appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.js:21:14)
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/element [39m[33m404[39m [90m44 ms - 1071[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/elements[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"Things to do today"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.findElements() with args: ["accessibility id","Things to do today","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'findElements'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Waiting up to 0 ms for condition
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/elements] with body: {"using":"accessibility id","value":"Things to do today"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":[],"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.findElements() result: []
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/elements [39m[32m200[39m [90m38 ms - 12[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418/elements[39m
-[35m[HTTP][39m [90m{"using":"accessibility id","value":"Things to do today"}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.findElements() with args: ["accessibility id","Things to do today","3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Executing command 'findElements'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Waiting up to 0 ms for condition
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/elements' to command name 'findElements'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153/elements] with body: {"using":"accessibility id","value":"Things to do today"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":[{"ELEMENT":"9E000000-0000-0000-A005-000000000000","element-6066-11e4-a52e-4f735466cecf":"9E000000-0000-0000-A005-000000000000"}],"sessionId":"1AEE32B0-E778-46D3-BE5A-32C8737E1153"}
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"9E000000-0000-0000-A005-000000000000","ELEMENT":"9E000000-0000-0000-A005-000000000000"}]
-[35m[HTTP][39m [37m<-- POST /session/3ba28745-4a99-4074-a564-67c4ff285418/elements [39m[32m200[39m [90m43 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/3ba28745-4a99-4074-a564-67c4ff285418[39m
-[35m[HTTP][39m [90m{}[39m
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Calling AppiumDriver.deleteSession() with args: ["3ba28745-4a99-4074-a564-67c4ff285418"]
-[debug] [35m[AppiumDriver@1bb3][39m Event 'quitSessionRequested' logged at 1660401987463 (17:46:27 GMT+0300 (Israel Daylight Time))
-[35m[AppiumDriver@1bb3][39m Removing session 3ba28745-4a99-4074-a564-67c4ff285418 from our master session list
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Matched '/session/3ba28745-4a99-4074-a564-67c4ff285418' to command name 'deleteSession'
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Proxying [DELETE /session/3ba28745-4a99-4074-a564-67c4ff285418] to [DELETE http://127.0.0.1:8100/session/1AEE32B0-E778-46D3-BE5A-32C8737E1153] with no body
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Got response with status 200: {"value":null,"sessionId":null}
-[35m[DevCon Factory][39m Releasing connections for 5863576F-AA57-445F-A1F3-FE046532327B device on any port number
-[35m[DevCon Factory][39m Found cached connections to release: ["5863576F-AA57-445F-A1F3-FE046532327B:8100"]
-[debug] [35m[DevCon Factory][39m Cached connections count: 0
-[debug] [35m[XCUITestDriver@91d9 (3ba28745)][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
-[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
-[debug] [35m[AppiumDriver@1bb3][39m Event 'quitSessionFinished' logged at 1660401988485 (17:46:28 GMT+0300 (Israel Daylight Time))
-[debug] [35m[AppiumDriver@1bb3][39m Received response: null
-[debug] [35m[AppiumDriver@1bb3][39m But deleting session, so not returning
-[debug] [35m[AppiumDriver@1bb3][39m Responding to client with driver.deleteSession() result: null
-[35m[HTTP][39m [37m<-- DELETE /session/3ba28745-4a99-4074-a564-67c4ff285418 [39m[32m200[39m [90m1023 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[Appium][39m Received SIGTERM - shutting down
-[debug] [35m[AppiumDriver@1bb3][39m There are no active sessions for cleanup
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel_3","appium:automationName":"UIAutomator2","appium:app":"/Users/wallaqa/webdriverio-appium/app/android/wallaApk/com.walla-7.5.2-251-release.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel_3","appium:automationName":"UIAutomator2","appium:app":"/Users/wallaqa/webdriverio-appium/app/android/wallaApk/com.walla-7.5.2-251-release.apk","appium:autoGrantPermissions":true}}[39m
+[debug] [35m[AppiumDriver@1570][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel_3","appium:automationName":"UIAutomator2","appium:app":"/Users/wallaqa/webdriverio-appium/app/android/wallaApk/com.walla-7.5.2-251-release.apk","appium:autoGrantPermissions":true},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11.0","appium:deviceName":"Pixel_3","appium:automationName":"UIAutomator2","appium:app":"/Users/wallaqa/webdriverio-appium/app/android/wallaApk/com.walla-7.5.2-251-release.apk","appium:autoGrantPermissions":true},"firstMatch":[{}]}]
+[debug] [35m[AppiumDriver@1570][39m Event 'newSessionRequested' logged at 1661626521468 (21:55:21 GMT+0300 (Israel Daylight Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/wallaqa/w/webdriverio/node_modules/appium-uiautomator2-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/wallaqa/w/webdriverio/node_modules/appium-uiautomator2-driver
+[35m[AppiumDriver@1570][39m Appium v2.0.0-beta.40 creating new AndroidUiautomator2Driver (v2.4.5) session
+[35m[AppiumDriver@1570][39m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[35m[AppiumDriver@1570][39m Appium's BaseDriver version is 8.5.7
+[35m[AppiumDriver@1570][39m AndroidUiautomator2Driver's BaseDriver version is 8.5.7
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m Creating session with W3C capabilities: {
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m   "alwaysMatch": {
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     "platformName": "Android",
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     "appium:platformVersion": "11.0",
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     "appium:deviceName": "Pixel_3",
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     "appium:automationName": "UIAutomator2",
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     "appium:app": "/Users/wallaqa/webdriverio-appium/app/android/wallaApk/com.walla-7.5.2-251-release.apk",
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     "appium:autoGrantPermissions": true
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m   },
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m   "firstMatch": [
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m     {}
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m   ]
+[debug] [35m[AndroidUiautomator2Driver@f5e6][39m }
+[35m[AndroidUiautomator2Driver@f5e6 (e7a585f1)][39m Session created with session id: e7a585f1-828a-42b4-b4ee-e8621f065283
+[35m[BaseDriver][39m Using local app '/Users/wallaqa/webdriverio-appium/app/android/wallaApk/com.walla-7.5.2-251-release.apk'
+[debug] [35m[AndroidUiautomator2Driver@f5e6 (e7a585f1)][39m Checking whether app is actually present
+[35m[ADB][39m Found 5 'build-tools' folders under '/Users/wallaqa/Library/Android/sdk' (newest first):
+[35m[ADB][39m     /Users/wallaqa/Library/Android/sdk/build-tools/33.0.0
+[35m[ADB][39m     /Users/wallaqa/Library/Android/sdk/build-tools/32.1.0-rc1
+[35m[ADB][39m     /Users/wallaqa/Library/Android/sdk/build-tools/32.0.0
+[35m[ADB][39m     /Users/wallaqa/Library/Android/sdk/build-tools/31.0.0
+[35m[ADB][39m     /Users/wallaqa/Library/Android/sdk/build-tools/30.0.3
+[35m[ADB][39m Using 'adb' from '/Users/wallaqa/Library/Android/sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m No connected devices have been detected
+[debug] [35m[ADB][39m Could not find online devices
+[debug] [35m[ADB][39m Reconnecting adb (target offline)
+[debug] [35m[ADB][39m Running '/Users/wallaqa/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [35m[AppiumDriver@1570][39m There are no active sessions for cleanup
 [35m[HTTP][39m Waiting until the server is closed
 [35m[HTTP][39m Received server close event
